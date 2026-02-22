@@ -2,8 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Progress } from 'antd';
 
-import abhi from '../images/abhi.jpeg';
-
 const AboutSection = () => {
     // Skills with proficiency levels
     const skills = [
@@ -99,7 +97,7 @@ const AboutSection = () => {
                                     <div className="text-center">
                                         
                                         <img
-                                            src={abhi}
+                                            src="https://ik.imagekit.io/m2otyox2qq/abhi.jpeg"
                                             alt="myPic"
                                             className="w-full h-full object-cover"
                                         />
